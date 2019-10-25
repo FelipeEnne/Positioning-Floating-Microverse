@@ -125,11 +125,19 @@ main{
   justify-items: center;
 }
 
+section {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  justify-items: center;
+  width: 600px;
+}
+
 main nav{
   width: 600px;
 }
 
-main p{
+section p{
   width: 600px;
   font-size: 1.15rem;
   font-weight: 500;
@@ -137,9 +145,11 @@ main p{
   margin-top: 13px;
 }
 
-main h2 {
+section h2 {
+  margin-top: 20px;
+  font-size: 17.7px;
   font-weight: 700;
-  float: left;
+  justify-self: left;
 }
 
 .citation-social{
@@ -175,7 +185,44 @@ main h2 {
   font-family: helvetica,arial,sans-serif;
 }
 
+.bottom-article {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
 
+.bottom-article small {
+  font-family: helvetica, arial, sans-serif;;
+  font-size: 0.65rem; 
+  color: rgb(102, 102, 102);
+}
+
+.bottom-article a {
+  color: rgb(102, 102, 102);
+}
+
+.bottom-article button {
+  margin-top: 20px;
+  background-color: rgb(50, 104, 145);
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+  border: none;
+  padding: 7px 100px;;
+  border-radius: 3px;
+  font-size: 12px;  
+  margin-right: 0;
+  margin-left: 5px;
+  font-weight: bold;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+
+}
+
+.bottom-article ul {
+  padding-top: 20px; 
+  float: right;
+  display: flex;
+}
 
 
 
