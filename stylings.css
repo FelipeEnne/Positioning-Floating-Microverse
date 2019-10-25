@@ -4,8 +4,8 @@
 }
 
 
-
 .content-nav{
+  z-index: 5;
 	display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,6 +145,10 @@ section p{
   margin-top: 13px;
 }
 
+section p a {
+  color: #326891;
+}
+
 section h2 {
   margin-top: 20px;
   font-size: 17.7px;
@@ -225,19 +229,23 @@ section h2 {
 }
 
 
+.graphic-grid {
+  width: 945px;
+  position: relative;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 40px;
+}
+
+.cell_1 {
+  grid-row: 1;
+  grid-column: 1/5;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-.additional-reading{
+.additional-reading{  
   display: flex;
   width: 70%;
 
