@@ -61,8 +61,12 @@ header{
   justify-items: center;
 }
 
-header img{
-  width: 65%;
+.main-picture {
+  width: 70%;
+}
+
+.main-picture img{
+  width: 100%;
 }
 
 header p{
@@ -74,8 +78,14 @@ header p{
   font-size: 15px;
 }
 
+.image-explanation-cnt {
+  max-width: 900px;
+  margin-bottom: 50px;
+}
+
 .img-explanation{
-  color: #666; 
+  color: #666;
+  width: 100%;
 }
 .img-made{
   color: #888;
@@ -107,6 +117,7 @@ container .title {
 main{
   display: grid;
   grid-auto-flow: row;
+  justify-content: space-between;
   justify-items: center;
 }
 
@@ -116,11 +127,19 @@ main nav{
 
 main p{
   width: 600px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  margin-top: 13px;
 }
 
+main h2 {
+  font-weight: 700;
+  float: left;
+}
+
+
 .citation-social span{
-  
-  
   font-weight: bolder;
 }
 
@@ -128,3 +147,4 @@ main p{
   color: black;
   text-decoration: none;
 }
+
