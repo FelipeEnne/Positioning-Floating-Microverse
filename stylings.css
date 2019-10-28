@@ -1,6 +1,6 @@
 .content-nav {
   z-index: 5;
-	display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgray;
@@ -16,7 +16,7 @@
 	margin-left: 10px;
 	align-items: center;
 	align-items: center;
-    display: flex;
+  display: flex;
 }
 
 .nav-left span {
@@ -169,7 +169,7 @@ section h2 {
 }
 
 .citation-social div {
-  display: flex;  
+  display: flex;
 }
 
 .citation-social li {
@@ -308,8 +308,8 @@ section h2 {
 
 .graphic hr {
   margin-top: 92px;
-  border-color: black;  
-  width: 60px
+  border-color: black;
+  width: 60px;
 }
 
 .img-text{
@@ -374,7 +374,7 @@ section h2 {
 .additional-reading-grid {
   display: grid;
   grid-template: (repeat(2, 1fr) / repeat(3, 1fr));
-  gap:50px 10px;
+  gap: 50px 10px;
 }
 
 .additional-reading-grid img {
@@ -409,8 +409,6 @@ section h2 {
     line-height: 24px;
     font-family: georgia, "times new roman", times, serif;
 }
-
-
 
 .additional-reading-grid-2{
   display: grid;
@@ -451,7 +449,7 @@ section h2 {
 }
 
 .additional-reading-border-div h3 {
-  padding-top:16px;
+  padding-top: 16px;
 }
 
 footer {
@@ -515,7 +513,7 @@ footer a {
 
 .footer-nav li {
   padding-left: 7px;
-  padding-right:7px;
+  padding-right: 7px;
 }
 
 .footer-subscribe .footer-title-aside {
