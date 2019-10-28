@@ -244,7 +244,7 @@ section h2 {
     'image2 image2 image2 image2'
     't5 t6 t7 t8';
   
-  column-gap: 10px;
+  column-gap: 15px;
   row-gap: 2px;
 }
 
@@ -257,7 +257,7 @@ section h2 {
    grid-area: t1;
 }
 .cell_3 {
-  
+
    grid-area: t2;
 }
 .cell_4 {
@@ -295,6 +295,10 @@ section h2 {
   line-height: 17px;
 }
 
+.grid-item b {
+  font-size: 11px;
+}
+
 .graphic hr {
   margin-top: 92px;
   border-color: black;  
@@ -305,7 +309,7 @@ section h2 {
   padding-top: 20px;
   height: 37px;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .footer-text {
