@@ -171,19 +171,24 @@ section h2 {
 
 }
 
+.social-icon-list {
+  margin-left: 260px;
+
+}
+
 .citation-social ul{
   display: flex;
   margin-top: 30px;
 }
 .citation-social div{
-  display: flex;
+  display: flex;  
 }
 .citation-social li{
   align-items: center;
 }
 
 .citation-social-text{
-  padding-top: 22px;
+  padding-top: 45px;
   font-size: 13px;
   font-family: helvetica,arial,sans-serif;
 }
@@ -228,12 +233,28 @@ section h2 {
 }
 
 .graphic {
+    
   height: auto;
   width: 946px;
   justify-self: center;
 }
 
-.graphic-grid {
+.graphic h2 {
+  margin-top: 20px;
+  height: 26px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: georgia,times,serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.graphic small {
+  font-size: 13px;
+  color: #666;
+}
+
+.graphic-grid {  
   position: relative;
   width: 945px;
   height: 576px;
