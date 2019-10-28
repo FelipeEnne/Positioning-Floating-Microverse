@@ -97,12 +97,10 @@ header p{
   font-size: 14px;
 }
 
-
-
 .container {
   display: grid;
   grid-auto-flow: row;
-  justify-items: center;  
+  justify-items: center;
 }
 
 .container .title {  
@@ -428,10 +426,9 @@ section h2 {
   gap:50px 10px;
 }
 
-
 .additional-reading-grid-2 img{
   width: 100%;
-} 
+}
 
 .additional-reading-grid-2 small{
     font-size: 11px;
