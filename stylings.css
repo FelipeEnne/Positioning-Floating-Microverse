@@ -267,33 +267,43 @@ section h2 {
 .cell_1 {
   grid-area: image;
 }
+
 .cell_2 {
    grid-area: t1;
 }
+
 .cell_3 {
    grid-area: t2;
 }
+
 .cell_4 {
    grid-area: t3;
 }
+
 .cell_5 {
    grid-area: t4;
 }
+
 .cell_6 {
   grid-area: image2;
 }
+
 .cell_7 {
    grid-area: t5;
 }
+
 .cell_8 {
    grid-area: t6;
 }
+
 .cell_9 {
    grid-area: t7;
 }
+
 .cell_10 {
    grid-area: t8;
 }
+
 .grid-item {
   font-size: 12px;
   text-align: justify;
@@ -311,12 +321,10 @@ section h2 {
   width: 60px
 }
 
-
 .img-text{
   width: 100%;
   margin-top: 35px;
 }
-
 
 .container-img-text .figcaption{
   padding-top: 15px;
@@ -330,11 +338,6 @@ section h2 {
   font-size: 14px;
   color: #888;
 }
-
-
-
-
-
 
 .footer {
   padding-top: 20px;
@@ -350,7 +353,6 @@ section h2 {
 .additional-reading{  
   display: flex;
   width: 100%;
-
 }
 
 .additional-reading h3{
@@ -373,12 +375,10 @@ section h2 {
     justify-items: start;
 }
 
-
 .additional-reading aside{
   border-top: 1px solid black;
   margin-right: 20px;
 }
-
 
 .additional-reading-grid{
   display: grid;
@@ -388,7 +388,7 @@ section h2 {
 
 .additional-reading-grid img{
   width: 100%;
-} 
+}
 
 .additional-reading-grid small{
     font-size: 11px;
