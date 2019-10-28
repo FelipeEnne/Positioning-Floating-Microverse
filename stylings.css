@@ -168,12 +168,10 @@ section h2 {
   color: black;
   text-decoration: none;
   border-bottom: 0.1px solid #b3b1b1;
-
 }
 
 .social-icon-list {
   margin-left: 260px;
-
 }
 
 .citation-social ul{
@@ -223,7 +221,6 @@ section h2 {
   font-weight: bold;
   line-height: 1.5rem;
   text-transform: uppercase;
-
 }
 
 .bottom-article ul {
@@ -233,7 +230,6 @@ section h2 {
 }
 
 .graphic {
-    
   height: auto;
   width: 946px;
   justify-self: center;
@@ -264,49 +260,38 @@ section h2 {
     't1 t2 t3 t4'
     'image2 image2 image2 image2'
     't5 t6 t7 t8';
-  
   column-gap: 15px;
   row-gap: 2px;
 }
 
 .cell_1 {
-  
   grid-area: image;
 }
 .cell_2 {
-  
    grid-area: t1;
 }
 .cell_3 {
-
    grid-area: t2;
 }
 .cell_4 {
-  
    grid-area: t3;
 }
 .cell_5 {
-  
    grid-area: t4;
 }
 .cell_6 {
-  
   grid-area: image2;
 }
 .cell_7 {
-  
    grid-area: t5;
 }
 .cell_8 {
-  
    grid-area: t6;
 }
 .cell_9 {
-  
    grid-area: t7;
 }
 .cell_10 {
-  
    grid-area: t8;
 }
 .grid-item {
@@ -327,8 +312,6 @@ section h2 {
 }
 
 
-
-
 .img-text{
   width: 100%;
   margin-top: 35px;
@@ -347,10 +330,6 @@ section h2 {
   font-size: 14px;
   color: #888;
 }
-
-
-
-
 
 
 
@@ -392,7 +371,6 @@ section h2 {
     margin-right: 30px;
     margin-left: 30px;
     justify-items: start;
-
 }
 
 
@@ -404,7 +382,7 @@ section h2 {
 
 .additional-reading-grid{
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-template: (repeat(2, 1fr) / repeat(3, 1fr));
   gap:50px 10px;
 }
 
@@ -431,7 +409,7 @@ section h2 {
     color: #888;
     float: left;
     margin-top: 5px;
-  }
+}
 
 
 .additional-reading li{
@@ -445,7 +423,6 @@ section h2 {
 
 
 .additional-reading-grid-2{
-
   display: grid;
   grid-template: repeat(1, 1fr) / repeat(3, 1fr);
   gap:50px 10px;
@@ -470,12 +447,13 @@ section h2 {
     font-size: 20px;
     margin-bottom: 0px;
 }
+
 .additional-reading-grid-2 p{
     font-size: 12px;
     color: #888;
     float: left;
     margin-top: 5px;
-  }
+}
 
 .additional-reading-border-div{
   border-top: 1px solid black;
