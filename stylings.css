@@ -227,65 +227,90 @@ section h2 {
   display: flex;
 }
 
+.graphic {
+  height: auto;
+  width: 946px;
+  justify-self: center;
+}
 
 .graphic-grid {
   position: relative;
+  width: 945px;
+  height: 576px;
   display: grid;
-  grid-template-areas: "image image image image"
-                        "t1 t1 t3 t4"
-                        "image2 image2 image2 image2"
-                        "t5 t6 t7 t8";
-  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  grid-template-areas:
+    'image image image image'
+    't1 t2 t3 t4'
+    'image2 image2 image2 image2'
+    't5 t6 t7 t8';
+  
   column-gap: 10px;
-  row-gap: 40px;
+  row-gap: 2px;
 }
 
 .cell_1 {
-  background: deepskyblue;
+  
   grid-area: image;
 }
 .cell_2 {
-  background: orangered;
+  
    grid-area: t1;
 }
 .cell_3 {
-  background: orangered;
+  
    grid-area: t2;
 }
 .cell_4 {
-  background: orangered;
+  
    grid-area: t3;
 }
 .cell_5 {
-  background: orangered;
+  
    grid-area: t4;
 }
 .cell_6 {
-  background: deepskyblue;
+  
   grid-area: image2;
 }
 .cell_7 {
-  background: orangered;
+  
    grid-area: t5;
 }
 .cell_8 {
-  background: orangered;
+  
    grid-area: t6;
 }
 .cell_9 {
-  background: orangered;
+  
    grid-area: t7;
 }
 .cell_10 {
-  background: orangered;
+  
    grid-area: t8;
 }
 .grid-item {
   font-size: 12px;
-  text-align: left;
-  padding: 0.5rem;
+  text-align: justify;
+  font-family: arial,helvetica,sans-serif;
+  line-height: 17px;
 }
 
+.graphic hr {
+  margin-top: 92px;
+  border-color: black;  
+  width: 60px
+}
+
+.footer {
+  padding-top: 20px;
+  height: 37px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  font-size: 12px;
+}
 
 .additional-reading{  
   display: flex;
