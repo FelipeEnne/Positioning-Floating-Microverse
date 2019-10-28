@@ -318,19 +318,18 @@ section h2 {
 
 .additional-reading aside{
   border-top: 1px solid black;
-  width: 25%;
+  margin-right: 20px;
 }
 
 
 .additional-reading-grid{
-  width: 60%;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   gap:50px 10px;
 }
 
 .additional-reading-grid img{
-  width: 275px;
+  width: 100%;
 } 
 
 .additional-reading-grid small{
@@ -406,4 +405,61 @@ section h2 {
 
 .additional-reading-border-div h3{
   padding-top:16px;
+}
+
+
+footer{
+    margin: 45px;
+    border-top: 4px double #888;
+}
+
+footer img{
+    margin: 0px;
+    align-items: right;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.footer-menu li{
+  padding: 5px;
+  font-size: 15px;
+}
+
+.footer-title{
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+}
+
+.footer-subscribe{
+  border-left: 1px solid #88888859;;
+  padding-left: 40px
+}
+
+.footer-nav{
+  border-top: 1px solid #88888859;
+  font-family: helvetica, arial, sans-serif;
+  color: rgb(153, 153, 153);
+  font-size: 11px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul {
+   display: flex;
+}
+
+.footer-nav li {
+    padding-left: 7px;
+    padding-right:7px;
 }
