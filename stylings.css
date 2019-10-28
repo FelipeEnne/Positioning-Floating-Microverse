@@ -247,7 +247,7 @@ section h2 {
 
 .additional-reading{  
   display: flex;
-  width: 70%;
+  width: 100%;
 
 }
 
@@ -261,20 +261,22 @@ section h2 {
   text-decoration: none;
   font-family: helvetica, arial, sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .additional-reading main{
-  border-top: 1px solid black;
-  margin-right: 20px;
-  margin-left: 30px;
-  justify-items:start;
+    border-top: 1px solid black;
+    margin-right: 29px;
+    margin-left: 67px;
+    justify-items: start;
+    width: 63%;
 
 }
 
 
 .additional-reading aside{
   border-top: 1px solid black;
+  width: 25%;
 }
 
 
@@ -311,13 +313,55 @@ section h2 {
   }
 
 
-
-
-
-
-
-
-.additional-reading aside{
-  width: 30%;
+.additional-reading li{
+    border-top: 1px solid #8080805c;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: georgia, "times new roman", times, serif;
 }
 
+
+
+.additional-reading-grid-2{
+  width: 60%;
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+  gap:50px 10px;
+}
+
+
+.additional-reading-grid-2 img{
+  width: 275px;
+} 
+
+.additional-reading-grid-2 small{
+    font-size: 11px;
+    color: #888;
+    float: right;
+    margin-top: 6px;
+}
+
+.additional-reading-grid-2 h3{
+    font-family: georgia, "times new roman", times, serif;
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.additional-reading-grid-2 p{
+    font-size: 12px;
+    color: #888;
+    float: left;
+    margin-top: 5px;
+  }
+
+.additional-reading-border-div{
+  border-top: 1px solid black;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.additional-reading-border-div h3{
+  padding-top:16px;
+}
