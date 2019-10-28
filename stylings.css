@@ -1,31 +1,25 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
-
-.content-nav{
+.content-nav {
   z-index: 5;
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-    height: 35px;
-    padding: 5px;
-    margin-right: 23px;
-    width: 100%;
-    position: fixed;
-    background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  height: 35px;
+  padding: 5px;
+  margin-right: 23px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
 }
 
 .nav-left {
-	margin-left: 10px; 
+	margin-left: 10px;
 	align-items: center;
 	align-items: center;
     display: flex;
 }
 
-.nav-left span{
+.nav-left span {
 	margin-left: 10px;
 	font-size: 14px;
   text-transform: uppercase;
@@ -34,31 +28,27 @@
   letter-spacing: 1px;
 }
 
-
-.nav-right a{
+.nav-right a {
 	font-size: 13px;
   font-family: sans-serif;
   color: black;
   font-weight: 550;
 }
 
-
-.nav-right button{
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 9px 13px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-family: helvetica;
-    margin-right: 15px;
-    margin-left: 5px;
-    font-weight: bold;
+.nav-right button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 9px 13px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: helvetica;
+  margin-right: 15px;
+  margin-left: 5px;
+  font-weight: bold;
 }
 
-
-
-header{
+header {
   width: 100%;
   display: grid;
   grid-auto-flow: row;
@@ -69,11 +59,11 @@ header{
   width: 70%;
 }
 
-.main-picture img{
+.main-picture img {
   width: 100%;
 }
 
-header p{
+header p {
   width: 65%;
   margin-right: 7px;
   font-family: georgia,'times new roman',times;
@@ -87,11 +77,12 @@ header p{
   margin-bottom: 50px;
 }
 
-.img-explanation{
+.img-explanation {
   color: #666;
   width: 100%;
 }
-.img-made{
+
+.img-made {
   color: #888;
   margin-top: 3px;
   font-size: 14px;
@@ -116,7 +107,7 @@ header p{
   text-align: center;
 }
 
-main{
+main {
   display: grid;
   grid-auto-flow: row;
   justify-content: space-between;
@@ -124,17 +115,16 @@ main{
 }
 
 section {
-  
   justify-content: space-between;
   justify-items: center;
   width: 600px;
 }
 
-main nav{
+main nav {
   width: 600px;
 }
 
-section p{
+section p {
   width: 600px;
   font-size: 1.15rem;
   font-weight: 500;
@@ -153,16 +143,17 @@ section h2 {
   justify-self: left;
 }
 
-.citation-social{
+.citation-social {
   display: block;
   height: 85px;
   border-bottom: 0px;
 }
-.citation-social span{
+
+.citation-social span {
   font-weight: bolder;
 }
 
-.citation-social span a{
+.citation-social span a {
   color: black;
   text-decoration: none;
   border-bottom: 0.1px solid #b3b1b1;
@@ -172,18 +163,20 @@ section h2 {
   margin-left: 260px;
 }
 
-.citation-social ul{
+.citation-social ul {
   display: flex;
   margin-top: 30px;
 }
-.citation-social div{
+
+.citation-social div {
   display: flex;  
 }
-.citation-social li{
+
+.citation-social li {
   align-items: center;
 }
 
-.citation-social-text{
+.citation-social-text {
   padding-top: 45px;
   font-size: 13px;
   font-family: helvetica,arial,sans-serif;
@@ -196,8 +189,8 @@ section h2 {
 }
 
 .bottom-article small {
-  font-family: helvetica, arial, sans-serif;;
-  font-size: 0.65rem; 
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.65rem;
   color: rgb(102, 102, 102);
 }
 
@@ -211,9 +204,9 @@ section h2 {
   font-family: helvetica, arial, sans-serif;
   color: white;
   border: none;
-  padding: 7px 100px;;
+  padding: 7px 100px;
   border-radius: 3px;
-  font-size: 12px;  
+  font-size: 12px;
   margin-right: 0;
   margin-left: 5px;
   font-weight: bold;
@@ -222,7 +215,7 @@ section h2 {
 }
 
 .bottom-article ul {
-  padding-top: 20px; 
+  padding-top: 20px;
   float: right;
   display: flex;
 }
@@ -248,7 +241,7 @@ section h2 {
   color: #666;
 }
 
-.graphic-grid {  
+.graphic-grid {
   position: relative;
   width: 945px;
   height: 576px;
@@ -324,7 +317,7 @@ section h2 {
   margin-top: 35px;
 }
 
-.container-img-text .figcaption{
+.container-img-text .figcaption {
   padding-top: 15px;
   padding-bottom: 20px;
   color: gray;
@@ -332,7 +325,7 @@ section h2 {
   color: #666;
 }
 
-.small-span{
+.small-span {
   font-size: 14px;
   color: #888;
 }
@@ -348,17 +341,17 @@ section h2 {
   font-size: 12px;
 }
 
-.additional-reading{  
+.additional-reading {
   display: flex;
   width: 100%;
 }
 
-.additional-reading h3{
+.additional-reading h3 {
   padding-top: 30px;
     margin-bottom: 20px;
 }
 
-.additional-reading a{
+.additional-reading a {
   color: black;
   text-decoration: none;
   font-family: helvetica, arial, sans-serif;
@@ -366,51 +359,50 @@ section h2 {
   font-size: 15px;
 }
 
-.additional-reading .main{
+.additional-reading .main {
     border-top: 1px solid black;
     margin-right: 30px;
     margin-left: 30px;
     justify-items: start;
 }
 
-.additional-reading aside{
+.additional-reading aside {
   border-top: 1px solid black;
   margin-right: 20px;
 }
 
-.additional-reading-grid{
+.additional-reading-grid {
   display: grid;
   grid-template: (repeat(2, 1fr) / repeat(3, 1fr));
   gap:50px 10px;
 }
 
-.additional-reading-grid img{
+.additional-reading-grid img {
   width: 100%;
 }
 
-.additional-reading-grid small{
+.additional-reading-grid small {
     font-size: 11px;
     color: #888;
     float: right;
     margin-top: 6px;
 }
 
-.additional-reading-grid h3{
+.additional-reading-grid h3 {
     font-family: georgia, "times new roman", times, serif;
     color: black;
     padding-top: 20px;
     font-size: 20px;
     margin-bottom: 0px;
 }
-.additional-reading-grid p{
+.additional-reading-grid p {
     font-size: 12px;
     color: #888;
     float: left;
     margin-top: 5px;
 }
 
-
-.additional-reading li{
+.additional-reading li {
     border-top: 1px solid #8080805c;
     padding: 15px;
     font-size: 18px;
