@@ -131,7 +131,7 @@ section p {
   margin-top: 13px;
 }
 
-section p a {
+.section-link {
   color: #326891;
 }
 
@@ -193,7 +193,7 @@ section h2 {
   color: rgb(102, 102, 102);
 }
 
-.bottom-article a {
+div.bottom-article  a {
   color: rgb(102, 102, 102);
 }
 
@@ -317,7 +317,6 @@ section h2 {
   padding-bottom: 20px;
   color: gray;
   line-height: 20px;
-  color: #666;
 }
 
 .small-span {
@@ -388,7 +387,7 @@ section h2 {
   color: black;
   padding-top: 20px;
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-bottom: none;
 }
 
 .additional-reading-grid p {
@@ -428,7 +427,7 @@ section h2 {
   color: black;
   padding-top: 20px;
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-bottom: none;
 }
 
 .additional-reading-grid-2 p {
@@ -454,7 +453,7 @@ footer {
 }
 
 footer img {
-  margin: 0px;
+  margin: none;
   align-items: right;
 }
 
