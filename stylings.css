@@ -193,7 +193,7 @@ section h2 {
   color: rgb(102, 102, 102);
 }
 
-div.bottom-article  a {
+div.bottom-article a {
   color: rgb(102, 102, 102);
 }
 
@@ -345,7 +345,7 @@ div.bottom-article  a {
   margin-bottom: 20px;
 }
 
-.additional-reading a {
+div.additional-reading a {
   color: black;
   text-decoration: none;
   font-family: helvetica, arial, sans-serif;
@@ -452,12 +452,7 @@ footer {
   border-top: 4px double #8886;
 }
 
-footer img {
-  margin: none;
-  align-items: right;
-}
-
-footer a {
+.footer-gotohome {
   float: right;
   text-decoration: none;
   margin-top: 20px;
