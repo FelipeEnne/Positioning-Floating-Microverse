@@ -4,3 +4,5 @@ linters:
 files:
     ignore:
         - 'Reset/*'
+fixers:
+    enable: true
