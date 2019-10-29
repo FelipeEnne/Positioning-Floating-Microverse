@@ -31,7 +31,7 @@
   font-size: 13px;
   font-family: sans-serif;
   color: black;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .nav-right button {
@@ -387,7 +387,7 @@ div.additional-reading a {
   color: black;
   padding-top: 20px;
   font-size: 20px;
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 
 .additional-reading-grid p {
@@ -427,7 +427,7 @@ div.additional-reading a {
   color: black;
   padding-top: 20px;
   font-size: 20px;
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 
 .additional-reading-grid-2 p {
