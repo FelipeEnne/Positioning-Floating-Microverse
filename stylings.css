@@ -532,3 +532,34 @@ footer {
 .footer-subscribe hr {
   border: 1px solid #8280803b;
 }
+
+.footer-fixed {
+  position: fixed;
+  height: 40px;
+  border-top: 1px solid black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.footer-fixed-text {
+  padding-top: 10px;
+  position: absolute;
+  left: 34%;
+}
+
+.footer-fixed-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-fixed-arrow {
+  float: right;
+}
+
+.footer-fixed img {
+  padding-top: 10px;
+  height: 15px;
+  padding-right: 50px;
+}
