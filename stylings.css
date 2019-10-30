@@ -543,13 +543,13 @@ footer {
   background-color: white;
 }
 
-.footer-fixed-text {
+div.footer-fixed-text {
   padding-top: 10px;
   position: absolute;
   left: 34%;
 }
 
-.footer-fixed-text a {
+div.footer-fixed-text a {
   text-decoration: none;
   color: black;
 }
